@@ -1,0 +1,33 @@
+.myButton button{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 120px;
+    background: #1b4aad;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 300;
+    border: 3px solid white;
+    cursor: pointer;
+    transition: .3s ease all;
+    border-radius: 5px;
+    position: absolute;
+    left: 45%;
+    top: 30%;
+}
+
+button:hover {
+    background: gray;
+}
+
+body{
+    
+    background-image: url("https://wallpapercave.com/wp/wp3721652.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;  
+}
+
+
